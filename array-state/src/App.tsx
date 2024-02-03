@@ -12,8 +12,7 @@ function App() {
   function removeElement(letter: string) {
     setArray((currentArray) =>
       currentArray.filter((element) => element !== letter)
-    );
-  }
+    ); 
 
   function addElement(letter: string) {
     setArray((currentArray) => [letter, ...currentArray]);
