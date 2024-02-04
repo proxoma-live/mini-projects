@@ -46,7 +46,7 @@ function App() {
       <h2>User List</h2>
       {users.map((user) => (
         <ul>
-          <User name={user.name} />
+          <User key={user.id} name={user.name} />
         </ul>
       ))}
     </div>
